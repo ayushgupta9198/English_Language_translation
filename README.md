@@ -31,14 +31,5 @@ Sequence-to-sequence learning (Seq2Seq) is about training models to convert sequ
     * Append the sampled character to the target sequence
     * Repeat until we generate the end-of-sequence character or we hit the character limit.
 
-### Conclusion
-
-To conclude, our network learnt the basic concept of language translation.
-
-
-
-
-will share the results and data file ASAP.
-
 
 
