@@ -7,10 +7,10 @@ from keras.callbacks import TensorBoard
 import numpy as np
 import _pickle as pickle
 
-batch_size = 128  # Batch size for training.
-epochs = 200  # Number of epochs to train for.
-latent_dim = 256  # Latent dimensionality of the encoding space.
-num_samples = 11000 # Number of samples to train on.
+batch_size = 64 # Batch size for training.
+epochs = 20  # Number of epochs to train for.
+latent_dim = 128  # Latent dimensionality of the encoding space.
+num_samples = 20000 # Number of samples to train on.
 # Path to the data txt file on disk.
 data_path = '/home/lenovo/Music/AYUSH imp/Language-Translation-with-deep-learning-/ch-eng.txt' # to replace by the actual dataset name
 encoder_path='encoder_modelPredTranslation.h5'
